@@ -1,17 +1,17 @@
-1.ÔÚpomÎÄ¼şµÄ<build>ÏÂµÄ<plugins>Ìí¼ÓÒÔÏÂÅäÖÃ
+1.åœ¨pomæ–‡ä»¶çš„<build>ä¸‹çš„<plugins>æ·»åŠ ä»¥ä¸‹é…ç½®
 		<plugins>
 			<plugin>
 		            <groupId>org.mybatis.generator</groupId>
 		            <artifactId>mybatis-generator-maven-plugin</artifactId>
 		            <version>1.3.5</version>
 		            <configuration>
-		                <!-- ÔÚ¿ØÖÆÌ¨´òÓ¡Ö´ĞĞÈÕÖ¾ -->
+		                <!-- åœ¨æ§åˆ¶å°æ‰“å°æ‰§è¡Œæ—¥å¿— -->
 		                <verbose>true</verbose>
-		                <!-- ÖØ¸´Éú³ÉÊ±»á¸²¸ÇÖ®Ç°µÄÎÄ¼ş-->
+		                <!-- é‡å¤ç”Ÿæˆæ—¶ä¼šè¦†ç›–ä¹‹å‰çš„æ–‡ä»¶-->
 		                <overwrite>true</overwrite>
 		                <configurationFile>src/main/resources/generatorConfig.xml</configurationFile>
 		            </configuration>
-		                <!-- Êı¾İ¿âÁ¬½ÓÑ¡Ôñ8.0ÒÔÉÏµÄ£¬ÒòÎªÓÃµÄmysql8.0-->
+		                <!-- æ•°æ®åº“è¿æ¥é€‰æ‹©8.0ä»¥ä¸Šçš„ï¼Œå› ä¸ºç”¨çš„mysql8.0-->
 		            <dependencies>
 		                <dependency>
 		                    <groupId>mysql</groupId>
@@ -22,4 +22,4 @@
 		    </plugin>
 		<plugins>
 		
-2.
+2.generatorConfigæ”¾å…¥resourcesé‡Œé¢
